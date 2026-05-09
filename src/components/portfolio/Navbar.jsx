@@ -83,7 +83,7 @@ export function Navbar() {
         </nav>
 
         {open && (
-          <div className="md:hidden mt-2 glass rounded-2xl p-4 shadow-soft animate-fade-in">
+          <div className="md:hidden mt-2 bg-background/95 backdrop-blur-xl border border-border rounded-2xl p-4 shadow-soft animate-fade-in">
             <ul className="flex flex-col gap-3">
               {links.map((l) => (
                 <li key={l.href}>
